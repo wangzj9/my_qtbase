@@ -1,0 +1,1 @@
+/usr/bin/c++   -fPIC -DPIC -Wno-deprecated   CMakeFiles/main.dir/test.cpp.o  -o main  -Wl,-rpath,/home/wzj/workspace/qtbase_corelib/qtcore/lib /home/wzj/workspace/qtbase_corelib/qtcore/lib/libQt5Core.so 
