@@ -1,1 +1,4 @@
-111
+来自qtbase5.12.10
+使用assist中的my_build.sh path_of_build 只保留qtcore内容
+path_of_build需要存在
+assist中的test是qthreadpool的测试代码，修改cmakelist进行链接qtcore的动态库就可运行
