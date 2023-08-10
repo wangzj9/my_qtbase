@@ -34,12 +34,17 @@ cd build
 
 sh autoconfig.sh "$path/qtbase"
 
-make -j4 && make install
+make -j8 && make install
 
 # 进入指定的路径
 cd "$path" || exit 1
 
 echo "已进入目录：$(pwd)"
+
+if [ -d "qtcore" ]; then
+    rm -rf ./qtcore
+fi
+
 mkdir qtcore
 cd qtcore 
 mkdir lib
